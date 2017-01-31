@@ -1031,6 +1031,7 @@ class svrea():
         # if self.clean:
         #     self.options += '-c'
 
+        print(open(self.config).read())
         return 0
 
 
@@ -1044,7 +1045,7 @@ class svrea():
         if self.handleCmdLine() != 0:
             return 1
 
-        print (self.config)
+        
         return 0
 
 
